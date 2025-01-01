@@ -4,7 +4,7 @@ class UploadProgressWidget extends StatelessWidget {
   final String fileName;
   final double progress;
 
-  UploadProgressWidget({
+  const UploadProgressWidget({super.key, 
     required this.fileName,
     required this.progress,
   });

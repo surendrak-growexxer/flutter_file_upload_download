@@ -5,7 +5,7 @@ class DownloadProgressWidget extends StatelessWidget {
   final String fileName;
   final double progress;
 
-  DownloadProgressWidget({
+  const DownloadProgressWidget({super.key, 
     required this.fileName,
     required this.progress,
   });
